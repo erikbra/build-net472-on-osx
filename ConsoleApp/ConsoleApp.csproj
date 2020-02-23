@@ -11,6 +11,9 @@
     
     <!-- It works if I build only for netcoreapp 3.1 -->
 <!--    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>-->
+
+    <!-- It works if I build for net461 -->
+    <!--    <TargetFrameworks>net461</TargetFrameworks>-->
     
   </PropertyGroup>
 
