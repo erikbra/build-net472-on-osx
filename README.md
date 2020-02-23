@@ -1,4 +1,16 @@
 # build-net472-on-osx
+
+## EDIT: The error was found in my own ~/.profile
+
+Terribly sorry about this. I found the error. It was in my own `~/.profile`:
+
+```sh
+export VSToolsPath=/Library/Frameworks/Mono.framework/Versions/Current/lib/mono/xbuild/Microsoft/VisualStudio/v15.0/
+export FrameworkPathOverride=/Library/Frameworks/Mono.framework/Versions/Current/lib/mono/4.6.1-api
+```
+
+which I had put there to make builds work at some point in  time (when I was targeting net461. Removed the two lines, and everything builds just fine... 
+
 Demonstrates a problem building net472 projects referencing netstandard2.0 libraries on macOS.
 
 I have several projects I'm working on (external and internal), that target net472, which references `netstandard2.0` 
