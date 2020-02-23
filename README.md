@@ -14,6 +14,15 @@ Some notes:
 
 So, the problem seems to be when mono is installed?
 
+
+## Steps to reproduce - on macOS
+```
+git clone https://github.com/erikbra/build-net472-on-osx.git
+cd build-net472-on-osx
+dotnet build
+```
+
+
 When building locally on my macOS, I get the following problem (which seems to be a problem everyone is having all around).
 
 
