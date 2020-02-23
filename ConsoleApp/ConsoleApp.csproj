@@ -4,7 +4,10 @@
     <OutputType>Exe</OutputType>
     
     <!-- This does not work on my macOS with Mono -->
-    <TargetFrameworks>net472;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>net472</TargetFrameworks>
+
+    <!-- This does not work on my macOS with Mono -->
+<!--    <TargetFrameworks>net472;netcoreapp3.1</TargetFrameworks>-->
     
     <!-- It works if I build only for netcoreapp 3.1 -->
 <!--    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>-->
